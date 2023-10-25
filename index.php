@@ -8,7 +8,7 @@
         echo "<br>";
         echo $resolver->sumar(75);
         echo "<br>";
-		echo $saludo->buenas();
+        echo $saludo->buenas();
     ?>
     </body>
 <html>
