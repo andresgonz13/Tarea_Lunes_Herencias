@@ -12,10 +12,16 @@ class Operaciones extends convertir {
     }
 }
 
-class Saludo {
-public $hola = 'Mi nombre es Andres Gonzalez, De T2-INF-1 Sección 1 informatica trayecto 2';
-	public function buenas() {
+class SaludoPadre {
+public $hola = 'Mi nombre es Andres Gonzalez, ';
+	public function buenaspadre() {
 		return $this->hola;
 	}
+}
+
+class SaludoHijo extends SaludoPadre {
+    public function buenashijo() {
+        return 'De T2-INF-1 Sección 1 informatica trayecto 2';
+    }
 }
 ?>
