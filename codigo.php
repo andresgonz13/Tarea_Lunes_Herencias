@@ -8,7 +8,7 @@ public $tasa = 34.88;
 
 class Operaciones extends convertir {
     public function sumar($cantidad) {
-        return $cantidad + 100;
+                return $cantidad + 100;
     }
 }
 
